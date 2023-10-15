@@ -1,16 +1,7 @@
-/* .container-fluid{
-    display: flex;
-    float: right;
-} */
-
-.card{
-    float: right;
-    margin-top: 5%;
-    margin-right:5%;
-    width: max-content;
-    height: max-content;
-}
-#update_btn{
-    margin: auto;
-    display: grid;
+body{
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    background: linear-gradient(#2A00B7, #42006C);
 }
