@@ -1,0 +1,81 @@
+.SignUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6em;
+    height: 2.5em;
+    color: #ffffff;
+    background: #6e40c9;
+    border-radius: 0.5em;
+    font-size: 1.188em;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    /* margin-top: 20em; */
+    margin-right: 2em;
+    box-shadow: 0px 0px 6px 2px #6e40c9;
+}
+
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6em;
+    height: 2.5em;
+    color: #ffffff;
+    background: #6e40c9;
+    border-radius: 0.5em;
+    font-size: 1.188em;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 0px 6px 2px #6e40c9;
+}
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.desc{
+    color:#ffffff;
+    height: fit-content;
+    width: 90%;
+}
+
+.desc > h2{
+    font-size: 5em;
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #ffffff;
+}
+
+.desc > h3{
+    color:#74808d;
+    font-size: 2em;
+    text-shadow: 0px 0px 1px #74808d;
+}
+
+#desc_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 80%;
+}
+
+.links {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#line {
+    width: 1px;
+    height: 80dvh;
+    background: linear-gradient(purple, white, green);
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 3em;
+}
