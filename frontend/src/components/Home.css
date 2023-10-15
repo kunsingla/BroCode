@@ -43,3 +43,113 @@ hr{
 .card-title{
     text-align: center;
 }
+
+/* input component css */
+#input{
+    box-shadow:  0px 0px 14px 1.5px rgb(219, 214, 214);
+    width:50em;
+    margin-top: 3em;
+    margin-left: 4.5em;
+}
+.name_input{
+    display: flex;
+    padding: 1em;
+}
+#exampleFormControlInput1{
+    margin: 1em;
+}
+#input_date{
+    border: 1px solid rgb(220, 214, 214);
+    box-shadow: 0px ;
+    border-radius:0.3em;
+    padding: 0.8em;
+    margin-left: 3.2em;
+}
+#exampleFormControlInput3{
+    width: 14em;
+    margin-left: 2em;
+}
+.date_input{
+    display: flex;
+}
+
+.age_input{
+    margin-top: 2.2em;
+}
+#age_input,#blood_group{
+    border: 1px solid rgb(220, 214, 214);
+    box-shadow: 0px ;
+    border-radius:0.3em;
+    padding: 0.8em;
+    margin-left: 2.1em;
+}
+#blood_group{
+    margin-left: 4em;
+}
+#next_btn,#next_btn_2,#submit_btn{
+    background-color: #4c00b4;
+    color:white;
+    margin-left: 20em;
+    margin-top: 2.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*FORM 2 Component Css */
+#input_2{
+    width: 50em;
+    margin-top: 3em;
+    margin-left: 4.5em;
+    padding: 2em;
+    box-shadow:  0px 0px 14px 1.5px rgb(219, 214, 214);
+}
+.class_input{
+    margin-top: 2.1em;
+    display: flex;
+}
+#class_input{
+    margin-right: 1.4em;
+
+}
+#date_input_2{
+    border: 1px solid rgb(220, 214, 214);
+    box-shadow: 0px ;
+    border-radius:0.3em;
+    padding: 0.8em;
+    margin-right: 1.2em;
+}
+.rollno_input{
+    display: flex;
+    margin-top: 2.3em;
+}
+
+
+/*FORM 3 Css*/
+#input_3{
+    width: 50em;
+    margin-top: 3em;
+    margin-left: 4.5em;
+    padding: 2em;
+    box-shadow:  0px 0px 14px 1.5px rgb(219, 214, 214);
+}
+.name{
+    display: flex;
+}
+#father_name_input{
+    margin-right: 1.2em;
+}
+.email{
+    display: flex;
+    margin-top: 1.5em;
+}
+#email_input{
+    margin-right: 1.5em;
+}
+#address_input{
+    margin-top: 1.2em;
+}
+#submit_btn{
+
+}

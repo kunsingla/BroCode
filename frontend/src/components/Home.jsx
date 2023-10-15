@@ -1,8 +1,13 @@
-import React from 'react';
+import {React, useState} from 'react';
 import './Home.css';
 import Edit from './Edit';
+import Form from './Form';
+import Form2 from './Form2';
+import Form3 from './Form3';
 
 const Home = () => {
+    const [num, setNum] = useState(0);
+    const formArray = [<Form setNum={setNum} />, <Form2 setNum={setNum}/>, <Form3 />];
     return (
         <div>
         <nav class="navbar bg-body-tertiary">
@@ -24,6 +29,7 @@ const Home = () => {
 </ul>
 <hr></hr>
 <Edit/>
+{formArray[num]}
         </div>
     );
 }
