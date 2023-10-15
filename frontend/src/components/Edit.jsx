@@ -1,4 +1,7 @@
 import React from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Edit = () => {
     return (
@@ -6,11 +9,11 @@ const Edit = () => {
   <div class="card-body">
     <h5 class="card-title">Recent Activities</h5>
   </div>
-  <ul class="list-group list-group-flush">
+  <ol class="list-group list-group-numbered">
     <li class="list-group-item">An item</li>
     <li class="list-group-item">A second item</li>
     <li class="list-group-item">A third item</li>
-  </ul>
+  </ol>
   <div class="card-body">
   <button id='update_btn' type="button" class="btn btn-warning">View More</button>
   </div>

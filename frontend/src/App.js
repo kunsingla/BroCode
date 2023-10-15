@@ -1,6 +1,7 @@
 import './App.css';
 import Edit from './components/Edit';
 import Home from './components/Home';
+import "aos/dist/aos.css";
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <>
     {/* <LoginSignUp/> */}
     <Home/>
-    <Edit/>
+   
     </>
   );
 }

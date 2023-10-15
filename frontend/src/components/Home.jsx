@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Edit from './Edit';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
   </li>
 </ul>
 <hr></hr>
+<Edit/>
         </div>
     );
 }
