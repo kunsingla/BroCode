@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Form = ({ setNum }) => {
+
     return (
         <div id='input' class="card" >
             <p style={{ textAlign: "center", height: "0em", fontSize: "2em", padding: ".5em", paddingBottom: "0.8em", fontWeight: "600" }} id="heading">Basic Information</p>
@@ -9,7 +10,7 @@ const Form = ({ setNum }) => {
 
                     <div className="name_input">
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name" />
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name" />
+                        <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Last Name" />
                     </div>
 
                     <div className="date_input">
@@ -22,7 +23,7 @@ const Form = ({ setNum }) => {
                         <input type="text" name="" id="blood_group" placeholder='Blood Group' />
                     </div>
 
-                    <button id='next_btn' type="button" class="btn btn-primary" onClick={() => setNum(1)}>Next</button>
+                    <button id='next_btn' type="button" class="btn btn-primary" onClick={() => {setNum(2)}}>Next</button>
 
                 </div>
             </div>

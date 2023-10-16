@@ -1,13 +1,8 @@
-import {React, useState} from "react";
-import axios from "axios";
+import React from "react";
 import DataRow from "./DataRow";
 import './Data.css';
 
-const UserData = () => {
-  const [data, changeData] = useState([]);
-  const handleData = async () => {
-    await axios.get("http://127.0.0.1:8000/api/audits/").then((res) => changeData(res.data));
-  }
+const UserData = ( { setNum, data, handleData } ) => {
 
   const dataMap = data.map((val, index) => {
     return (
@@ -22,7 +17,7 @@ const UserData = () => {
 
   return (
     <>
-    {!data.length && <button onClick={() => handleData()}>Show</button>}
+    {!data.length && <button id='show' onClick={() => handleData()}>Show</button>}
     <div id="user_data">
       <table className="table table-striped">
       <thead>
@@ -35,6 +30,7 @@ const UserData = () => {
       </tbody>
       </table>
     </div>
+    {data.length && <button id="create" onClick={() => setNum(1)}>Create</button>}
     </>
   );
 }
